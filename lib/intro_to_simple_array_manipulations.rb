@@ -12,5 +12,7 @@ end
 
 def pop_with_args(array)
   pops = []
-  
+  pops.push(array.pop)
+  pops.push(array.pop)
+  return pops
 end   
